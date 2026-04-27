@@ -46,7 +46,7 @@ while(prev.data != node):
 
 if(current == None):
  print('The node does not exist')
- return 
+ 
       
 newNode.next = current 
 prev.next = newNode
